@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Contact
+        </title>
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+        
+        <body class="container">
+            <header class="header"> <h1 class="header"> Ik verveel mij! </h1>
+              <div class="menu">
+                <nav class="button"><a href= "index.html">home</a></nav>
+                <nav class="button"><a href= "about.html">about</a></nav>
+                <nav class="button"><a href= "blog.html">blog</a></nav>
+                <nav class="button"><a href= "binnen.html">binnen</a></nav>
+                <nav class="button"><a href= "buiten.html">buiten</a></nav>
+                <nav class="button"><a href= "contact.html">contact</a></nav>
+              </div></header>
+           
+       <main class="content">
+
+  <form name="contact" method="POST" data-netlify="true">
+        <h1>Contactformulier</h1> 
+
+  <div>
+    <label for="name">Naam:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+  </div>
+
+  <div>
+     <label for="email">Emailadres:</label>
+    <input type="email" id="email" name="email"><br><br>
+  </div>
+  
+  <div>
+     <label for="phone">Telefoonnummer:</label><br><br>
+     <input type="tel" id="phone" name="phone" placeholder="06-12345678" pattern="[0-9]{2}-[0-9]{8}" required><br><br>
+  </div>  
+
+  <div>
+      <label >Leeftijd</label>
+      <input type="number" name="age" min="1" max="200"/>
+  </div>
+      <br>
+      <br>
+    
+  <div>
+    <label >Geboortedatum</label>
+    <input type="date" name="date" min="1900-01-01"/>
+  </div>  
+        <br>
+        <br>
+
+  <div>
+     <label >Geslacht</label>
+     </div>
+    
+  <div>
+        <label>Man</label>
+        <input  type="radio" name="Gender" value="male"/>
+  </div>
+  <div>
+        <label>Vrouw</label>
+        <input  type="radio" name="Gender" value="female" />
+  </div>
+        <br>
+        <br>
+        
+  <div>
+        <label >Favoriete plaats activiteit:</label>
+        <br>
+        <input  type="checkbox" name="binnen" >Binnen
+        <input  type="checkbox" nane="buiten">Buiten
+  </div>
+        <br>
+        <br>
+  <div><label >Favoriete verfkleur:</label>
+        <br>
+        <input type="color" name="color"/>
+  </div>
+        <br>
+        <br>
+  <div>
+        <label >Idee voor activiteit:</label>
+        <br>
+        <textarea name="Idee" rows="3" cols="20">hier kun je een idee opschrijven
+        </textarea>
+  </div>
+        <br>
+        <br>
+  <div>
+        <label>upload je laatste activiteit</label>
+        <input   type="file" name="file"/>
+  </div>
+        <br>
+        <br>
+  <div>
+        <label>URL naar leuke activiteitenwebsite</label>
+        <input   type="url" name="url" />
+  </div>
+        <br>
+        <br>
+       
+  <div>
+        <input   type="reset" value="reset" />
+    
+  </div>
+        <br>
+        <br>
+  <input type="submit" value="Submit">
+  <br>
+  <br>
+</form>
+<footer class="footer">
+    <p>Om naar de juiste pagina's te gaan, staat bovenaan een navigatiebar, op de buttons kun je klikken. Veel plezier!</p>
+</footer></main>
+</body>
+</html>
